@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0%
+    
+}
+
+html {
+    scroll-behavior: smooth;
+    
+  }
+
+
+.logo{
+    margin-left: 150px;
+    font-size: 2rem;
+    color: white!important;
+    font-family: 'Beth Ellen', cursive;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+    
+}
+
+.navbar-nav{
+    padding: 0 20px;
+   
+}
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+    font-size: 1.2rem;
+    color: #007bff;
+
+}
+
+#nav-bar ul li a:hover{
+    color: #007bff!important;
+}
+
+.navbar{
+    
+    padding: 12px;
+    /* background:linear-gradient(to left, #000000, #202020);    */
+    /* background color */
+    
+
+}
+
+.navbar-toggler{
+    border: none!important;
+}
+
+.nav-link{
+    color: white!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.pad ul li{
+    padding: 10px;
+    padding-right: 35px;
+    
+}
+header {
+    min-height: 100vh;
+
+    background-size:cover;
+    background: linear-gradient(rgba(173, 169, 169, 0), rgba(0, 0, 0, 0.7)),
+    url(background.jpg) center/cover no-repeat!important;
+    
+}
+
+.topic{
+    font-size: 100rem;
+}
+
+.hidden-spacer {
+    height: 56px
+    
+}
+
+@media only screen and (max-width: 1273px) {
+    .logo {
+      margin-left: 20px;
+    }
+}
+.hero-content{
+    
+    float: left;
+    margin-top: 210px;
+    color: white;
+    font-family: cursive;
+    
+    font-family: 'Devonshire', cursive;
+}  
+
+.hero-content h1{
+    text-align: center;
+    font-family: valorant;
+    margin-top: 120px;
+    margin-right: 50px;
+    font-size: 4rem;
+    color: white;
+}
+@media only screen and (max-width: 667px) {
+    .hero-content h1{
+       
+        font-size: 2.9rem!important;
+    }
+}
+
+
+.hero-content h3{
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+}
+
+.hero-content p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.hero-content a{
+    margin-left: 40%;
+    border: 0px solid white;
+    padding: 15px 50px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(241, 60, 28);
+    border-radius: 5px;
+}
+
+.hero-content a:hover{
+    background-color: rgba(241, 60, 28,0.85);
+}
+
+
+
+
+@media only screen and (max-width: 963.2px) {
+    .hero-content h1, .hero-content h3{
+        white-space: nowrap;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 963.2px) {
+    .hero-content p{
+        white-space: nowrap;
+        font-size: 1.5rem;
+    }
+}
+
+/* @media only screen and (max-width: 905.6px) {
+    .hero-content p{
+        
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 905.6px) {
+    .hero-content a{
+        
+        padding: 10px 40px;
+        
+    }
+}
+
+@media only screen and (max-width: 905.6px) {
+    .hero-content a{
+        
+        padding: 10px 40px;
+        margin-right: 20%;
+    }
+}
+
+@media only screen and (max-width: 736px) {
+    .hero-content h3, .hero-content a{
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (max-width: 736px) {
+    .hero-content h1, .hero-content h3, .hero-content p{
+       text-align: start;
+    }
+} */
+
+/* @media only screen and (max-width: 830px) {
+    .hero-content h1, .hero-content h2{
+      font-size: 5rem;
+    }
+}
+@media only screen and (max-width: 830px) {
+    .hero-content h1, .hero-content h2{
+      
+      margin-left: -80px;
+      
+    }
+}
+
+@media only screen and (max-width: 516px) {
+    .hero-content h1, .hero-content h2{
+      font-size: 3.5rem;
+      margin-top: 30px;
+      margin-left: 1%;
+    }
+} */
+
+.media i{
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* @media only screen and (max-width: 812px) {
+    .media {
+      margin-left: -80px;
+      margin-left: 1%;
+    }
+} */
+
+
+.nav-disp{
+    background-color:#2b0634; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.heading{
+    color: white!important;
+    
+}
+
+.y{
+    color: white!important;
+}
+
+#navbarNav ul li a::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+
+    
+}
+
+#navbarNav ul li a:hover:before{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+#navbarNav ul li a{
+    position: relative;
+    font-size: 18px;
+    color: white;
+}
+
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(255, 252, 252, 0.678), 0 6px 20px 0 rgba(255, 255, 255, 0.788)
+}
+
+@media only screen and (max-width: 991px) {
+    .pad{
+        background-color: #2b0634;   
+      
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .list{
+      color: white!important;
+      
+    }
+}
+
+
+
+.back{
+    
+    background-color: black;
+}
+
+.text-col{
+    color: black!important;
+}
+
+/* End of navbar */
+
+
+.site-section {
+    padding: 3em 0;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.items li{
+    margin-left: 40px;
+}
+
+.items p{
+    margin-left: 40px;
+}
+
+#footer{
+    min-height: 59vh;
+    margin-top: -17px;
+    background-color: #2b0634;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#footer h2{
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+
+}
+.social{
+    padding-top: 120px;
+}
+
+#footer span{
+    color: #efefef;
+    padding-left: 10px;
+}
+
+.social a{
+    padding:20px ;
+    font-size: 1.5rem;
+    color: grey;
+    
+}
+
+.social{
+    margin-right: 80px;
+    transform: translateY(-70px);
+}
+
+.social a:hover{
+    color: white;
+}
+
+.eve-details{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    color: white;
+    margin-left: 90px;
+}
+@media only screen and (max-width: 924px) {
+    .chat, .location, .time {
+        font-size: 0.7rem!important;
+        
+       
+    }
+} 
+
+
+
+@media only screen and (max-width: 526px) {
+    .eve-details{
+        flex-flow: column;
+        justify-content: space-evenly;
+        margin-left: -15px;
+        
+        
+       
+    }
+}
+
+@media only screen and (max-width: 526px) {
+    .chat, .location, .time {
+        font-size: 0.6rem!important;
+        
+       
+    }
+} 
+
+@media only screen and (max-width: 526px) {
+    .chat i, .location i, .time i{
+        font-size: 1.4rem!important;
+        
+       
+    }
+} 
+
+@media only screen and (max-width: 526px) {
+    .location, .time, .chat{
+        padding: 10px;
+        
+        
+       
+    }
+}
+
+@media only screen and (max-width: 526px) {
+    #footer{
+        min-height: 100vh;
+        
+        
+       
+    }
+}
+
+@media only screen and (max-width: 526px) {
+    .social a{
+        
+        font-size: 1rem;
+    }
+    
+}
+
+@media only screen and (max-width: 526px) {
+    .social {
+       margin-left: 40px;
+       
+        
+        
+    }
+    
+}
+.location i{
+    font-size: 2.5rem;
+}
+
+.location h4{
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.time i{
+    font-size: 2.5rem;
+}
+
+.time h4{
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.chat i{
+    font-size: 2.5rem;
+}
+
+.chat h4{
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.valo-font{
+    margin-top: 100px;
+    font-family: valorant;
+}
+
+@font-face {
+    font-family: valorant;
+    src: url(Valorant-Font.ttf) format("truetype");
+}

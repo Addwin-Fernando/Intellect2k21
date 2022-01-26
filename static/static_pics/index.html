@@ -1,0 +1,144 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Emotion-Based-Music</title>
+</head>
+
+<body>
+    <!-- Profile picture-->
+    <!-- <img src="assets/profile-picture.jpg" alt="profile picture" class="profile-picture"> -->
+    <!-- Profile name-->
+    <div style="font-size:40px;" class="profile-name">Emotion Based Music Player</div>
+    <!-- Links-->
+    <a href="#" id="emotion1" class="links">Happy </a>
+    <a href="#" id="emotion2" class="links">Depressed</a>
+    <a href="#" id="emotion3" class="links">Sad</a>
+    <a href="#" id="emotion4" class="links">Excited</a>
+    <a href="#" id="emotion5" class="links">Romantic</a>
+    <button style="position:relative; left:638px; top:20px;" type="button" class="btn btn-outline-success" onclick="myFunction()">
+    Let's Go
+    </button>
+    <!-- Logo -->
+    <div style="font-size: 40px;" class="bottom-text">RTC SQUAD</div>
+</body>
+<script>
+    function myFunction() {
+        //document.getElementById('myLink').href
+        // ="https://www.geeksforgeeks.org";
+
+        //document.getElementById("myLink")
+        // .textContent = "Go to GeeksforGeeks";
+        const happy_links = [
+        "https://youtu.be/Io0fBr1XBUA",
+        "https://youtu.be/w5tWYmIOWGk",
+        "https://youtu.be/ru0K8uYEZWw",
+        "https://youtu.be/Y66j_BUCBMY",
+        "https://youtu.be/gte3BoXKwP0"
+        ];
+
+        const Depressed_links = [
+        "https://youtu.be/jb-i_ARlumQ",
+        "https://youtu.be/Ahha3Cqe_fk",
+        "https://youtu.be/AG-erEMhumc",
+        "https://youtu.be/SlPhMPnQ58k",
+        "https://youtu.be/zABLecsR5UE"
+        ];
+        const Sad_links = [
+        "https://www.youtube.com/watch?v=pgN-vvVVxMA",
+        "https://www.youtube.com/watch?v=C5i-UnuUKUI",
+        "https://www.youtube.com/watch?v=RgKAFK5djSk",
+        "https://www.youtube.com/watch?v=zlJDTxahav0",
+        "https://www.youtube.com/watch?v=I0czvJ_jikg"
+        ];
+        const Excited_links = [
+        "https://youtu.be/09R8_2nJtjg",
+        "https://youtu.be/papuvlVeZg8",
+        "https://youtu.be/hT_nvWreIhg",
+        "https://youtu.be/T3E9Wjbq44E",
+        "https://youtu.be/3-BEUasz0KY"
+        ];
+        const Romantic_links = [
+        "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+        "https://www.youtube.com/watch?v=PT2_F-1esPk",
+        "https://www.youtube.com/watch?v=SMs0GnYze34",
+        "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+        "https://www.youtube.com/watch?v=Pkh8UtuejGw"
+        ];
+
+        const random = Math.floor(Math.random() * 5);
+        console.log(random);
+        document.getElementById('emotion1').href
+            = happy_links[random];
+            document.getElementById('emotion2').href
+            = Depressed_links[random];
+            document.getElementById('emotion3').href
+            = Sad_links[random];
+            document.getElementById('emotion4').href
+            = Excited_links[random];
+            document.getElementById('emotion5').href
+            = Romantic_links[random];
+    }
+</script>
+<style>
+    body {
+        background: black;
+        color: rgb(65, 240, 65);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    img {
+        border-radius: 50%;
+    }
+
+    .profile-picture {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        height: auto;
+        max-width: 100px;
+    }
+
+    .profile-name {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .links {
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px;
+        border: 1px solid rgb(72, 250, 72);
+        border-width: 2px;
+        width: 290px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px;
+    }
+
+    a {
+        text-decoration: none;
+        color: greenyellow;
+        transition: color 1s;
+    }
+
+    .bottom-text {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    a:hover {
+        color: black;
+        background: grey;
+    }
+</style>
+
+</html>

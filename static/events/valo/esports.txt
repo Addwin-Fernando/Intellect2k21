@@ -1,0 +1,81 @@
+3. E - sports
+
+Registration:
+
+1.	Register at the website and then send the entries. 
+2.	Only registered team are allowed to participate
+3.	Maximum 5 members per team 
+4.	Gaming details will be forwarded in due time 
+
+Category: College students and School students
+1. Anti-Cheat:
+No additional anti-cheat is required for official matches. 
+2. Match Procedure:
+Supported platforms:
+●     PC
+2.1 Series Lengths:
+Matches are played as a best of 1 series for the League and as a best of 3 series during the Brackets and a best of 5 series for the Grand-Finals. 
+2.2 Game Settings:
+The Organizers will host the lobby and invite the team Captains .
+●     Lobby: Custom (closed)
+●     Mode: Standard
+●     Allow Cheats: Off
+●     Tournament Mode: On
+●     Overtime Win by Two: On 
+In the event that an incorrect rule set is loaded on the server, the match should be stopped and reset. Previously played rounds with incorrect format will not count towards the match outcome.
+2.3 Map Selection:
+        	Toss to decide which team is considered as Team 1
+Best of 1 Matches:
+●     Team 1 vetoes 1 map
+●     Team 2 vetoes 2 maps
+●     Team 1 vetoes 2 map
+●     Team 2 chooses Starting Side 
+Best of 3 Matches:
+●     Team 1 vetoes 2 maps
+●     Team 2 chooses Starting Side 
+Best of 5 Matches:
+●     Both Teams decide Mutually on Dropping 1 map
+●     In case of disagreement , Organizer’s Call is Final.
+3. Restrictions
+Any Agents, Weapons, Sprays, Weapon Skins, Weapon Buddies, and Maps currently disabled in other Riot Tournaments are prohibited 
+4. Stoppage of Play
+The game may only be paused for the following reasons:
+●     Player drop
+●     Player disconnect
+●     Technical issues
+Stoppage of play may be requested at any time for the above reasons. The team initiating a pause must first call the pause in chat. A pause may not be called during combat, or once the Spike has been planted. Players may not move around the map when a pause is in effect. Once both teams are ready, the team who paused the match will un-pause it. Each team will have 2 pauses per map. Each Pause being a maximum of 5 minutes Note that this 5 min include network/FPS issues. Players pause the game by pressing the Esc key and selecting "cheats". Abuse of the pause feature may result in punishment for the team abusing it.
+
+
+5. Player Count
+Both teams participating in a match must provide 5 players at the beginning of each game. During a game, if a team should lose 3 players that have disconnected from the match at the same time, that team will forfeit the remainder of the game to the opposing team. If a team is not able to field the required number of players for additional games in the series, then they will forfeit the remainder of the match. Organizers must be informed prior to map start in case of any substitutions.
+6. Fair play Regulations:
+Don't be toxic or disrespectful, competitive integrity is of utmost importance, should the organizers deem your actions/words inappropriate or fraudulent in any manner whatsoever, the Team will be Disqualified Instantly.
+ 
+All the Best , Agents ; and Remember, do not forget the spike.
+
+
+Organizing members:
+●     Talha Abdur Rahman - CSE A -190071601060
+●     Addwin Fernando - CSE A -190071601002
+●     Visvesh.S - CSE C -190071601176
+●     Chandramouli - CSE A -1900716015
+●     Balaji.T - CSE A -190071601013
+●     M.Achutha krishna - CSE A -190071601001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+background:linear-gradient(to left, #000000, #202020);   
