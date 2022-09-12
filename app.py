@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 app = Flask(__name__)
 
-@app.route('/admin') 
+@app.route('/') 
 def home():
     return render_template('index.html')
 
@@ -14,7 +14,7 @@ def artella():
 def valo():
     return render_template('valo.html')
 
-@app.route('/') 
+@app.route('/admin') 
 def admin():
     return render_template('admin.html')
 
